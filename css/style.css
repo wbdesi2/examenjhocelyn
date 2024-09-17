@@ -1,0 +1,75 @@
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+#hero{
+	background-image: url("../img/slider-glob.png"); 
+	background-color: #282d33;
+	padding: 50px 30px;
+	
+}
+
+
+#ok{
+	color: #f7b614; 
+}
+#PopularGoods{
+	text-align: center;
+	align-content: center;
+	color: #282d33;
+	padding: 50px 20px;
+}
+
+#athome{
+	background-color: #282d33;
+	padding: 40px 20px;
+	
+}
+
+
+#chiqui{
+	color: #f7b614; 
+}
+
+#info{
+	padding: 0px 20px;
+}
+
+#sub2{
+	color: #f7b614; 
+}
